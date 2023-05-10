@@ -1,9 +1,13 @@
 // Component //
 export class Component {
   constructor(payload = {}) {
-  const { tagName = 'div' } = payload
-  this.el = document.createElement(tagName)
-  this.render()
+  const {
+    tagName = 'div',
+    state = {}
+    } = payload
+    this.el = document.createElement(tagName)
+    this.state = state
+    this.render()
   }
   render() {
    // ...
