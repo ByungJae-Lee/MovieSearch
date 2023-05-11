@@ -8,6 +8,7 @@ export default class App extends Component {
       }
     })
   }
+  
   render() {
     this.el.classList.add('search')
     this.el.innerHTML = `
