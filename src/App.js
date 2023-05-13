@@ -15,6 +15,7 @@ export default class App extends Component {
       <input />
       <button>Click!</button>
     `
+    
 
     const inputEl = this.el.querySelector('input')
     inputEl.addEventListener('input', () => {
