@@ -23,6 +23,7 @@ export default class App extends Component {
     })
 
     
+    
     const buttonEl = this.el.querySelector('button')
     buttonEl.addEventListener('click', () => {
       console.log(this.state.inputText)
